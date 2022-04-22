@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koszt Benzyny</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-bg"></div>
+            <h1 class="header-text">Kalkulator<br> kosztów <br>paliwa</h1>
+        </div>
+        <div class="info">
+            <label for="consumption">Średnie spalanie na 100 km:</label>
+            <input type="number" id="consumption" placeholder="Podaj wartość">
+            <label for="price">Cena za litr paliwa:</label>
+            <input type="number" id="price" placeholder="Podaj wartość">
+            <label for="distance">Dystans do przejachania:</label>
+            <input type="number" id="distance" placeholder="Podaj wartość">
+            <p class="error">Wypełnij poprawnie wszystkie pola.</p>
+            <div class="buttons">
+                <button class='btn-clear'>wyczyść</button>
+                <button class='btn-calc'>oblicz</button>
+            </div>
+            <p class="result-info">Koszt paliwa na podanej trasie: </p>
+            <h2 class="result">0.0 zł</h2>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
