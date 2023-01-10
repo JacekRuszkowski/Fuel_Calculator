@@ -114,6 +114,9 @@ body {
 }
 
 @media (max-width: 576px) {
+	body {
+		padding: 0;
+	}
 	.wrapper {
 		.header {
 			height: 200px;
